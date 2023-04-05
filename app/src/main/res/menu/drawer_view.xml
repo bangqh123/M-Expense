@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trip"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="@string/trip" />
+        <item
+            android:id="@+id/nav_expense"
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="@string/expense" />
+        <item
+            android:id="@+id/nav_export"
+            android:icon="@android:drawable/stat_sys_download"
+            android:title="@string/export" />
+        <item
+            android:id="@+id/nav_clear"
+            android:checkable="false"
+            android:icon="@drawable/delete"
+            android:title="@string/clear" />
+        <item
+            android:id="@+id/nav_logout"
+            android:checkable="false"
+            android:icon="@android:drawable/ic_secure"
+            android:title="@string/log_out" />
+    </group>
+</menu>
